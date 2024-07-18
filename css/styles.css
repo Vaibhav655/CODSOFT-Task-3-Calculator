@@ -2,7 +2,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  background-color: #caf0f8; 
+
 }
 
 .button{
@@ -16,7 +18,23 @@ html, body {
 
 .row{
   margin: 8px 0;
+  
 }
+
+.box{
+  padding: 20px;
+  border: 6px solid #000;
+  box-shadow: 12px 12px 0 #000;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  background-color: #90e0ef;
+}
+
+.box:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 17px 17px 0 #000;
+}
+
 .row input{
   width: 291px;
   font-size: 20px;
@@ -24,4 +42,15 @@ html, body {
     padding: 10px 0px;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.header-bar {
+  background-color: #0077b6; /* You can choose any color you like */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-center {
+  margin: 0;
 }
